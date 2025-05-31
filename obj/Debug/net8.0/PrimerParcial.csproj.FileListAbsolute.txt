@@ -1,0 +1,14 @@
+C:\Users\Matt_\OneDrive\Desktop\PrimerParcial\obj\Debug\net8.0\PrimerParcial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matt_\OneDrive\Desktop\PrimerParcial\obj\Debug\net8.0\PrimerParcial.AssemblyInfoInputs.cache
+C:\Users\Matt_\OneDrive\Desktop\PrimerParcial\obj\Debug\net8.0\PrimerParcial.AssemblyInfo.cs
+C:\Users\Matt_\OneDrive\Desktop\PrimerParcial\obj\Debug\net8.0\PrimerParcial.csproj.CoreCompileInputs.cache
+C:\Users\Matt_\OneDrive\Desktop\PrimerParcial\bin\Debug\net8.0\PrimerParcial.exe
+C:\Users\Matt_\OneDrive\Desktop\PrimerParcial\bin\Debug\net8.0\PrimerParcial.deps.json
+C:\Users\Matt_\OneDrive\Desktop\PrimerParcial\bin\Debug\net8.0\PrimerParcial.runtimeconfig.json
+C:\Users\Matt_\OneDrive\Desktop\PrimerParcial\bin\Debug\net8.0\PrimerParcial.dll
+C:\Users\Matt_\OneDrive\Desktop\PrimerParcial\bin\Debug\net8.0\PrimerParcial.pdb
+C:\Users\Matt_\OneDrive\Desktop\PrimerParcial\obj\Debug\net8.0\PrimerParcial.dll
+C:\Users\Matt_\OneDrive\Desktop\PrimerParcial\obj\Debug\net8.0\refint\PrimerParcial.dll
+C:\Users\Matt_\OneDrive\Desktop\PrimerParcial\obj\Debug\net8.0\PrimerParcial.pdb
+C:\Users\Matt_\OneDrive\Desktop\PrimerParcial\obj\Debug\net8.0\PrimerParcial.genruntimeconfig.cache
+C:\Users\Matt_\OneDrive\Desktop\PrimerParcial\obj\Debug\net8.0\ref\PrimerParcial.dll
