@@ -41,9 +41,9 @@ namespace Views
         }
         public static void ShowDestinationList(List<Destination> productList) 
         {
-            foreach (Destination var in productList) 
+            foreach (Destination destino in productList) 
             {
-                ShowDestination(var);
+                ShowDestination(destino);
             }
         }
 

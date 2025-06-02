@@ -12,3 +12,4 @@ C:\Users\Matt_\OneDrive\Desktop\PrimerParcial\obj\Debug\net8.0\refint\PrimerParc
 C:\Users\Matt_\OneDrive\Desktop\PrimerParcial\obj\Debug\net8.0\PrimerParcial.pdb
 C:\Users\Matt_\OneDrive\Desktop\PrimerParcial\obj\Debug\net8.0\PrimerParcial.genruntimeconfig.cache
 C:\Users\Matt_\OneDrive\Desktop\PrimerParcial\obj\Debug\net8.0\ref\PrimerParcial.dll
+C:\Users\Matt_\OneDrive\Desktop\PrimerParcial\obj\Debug\net8.0\PrimerParcial.sourcelink.json

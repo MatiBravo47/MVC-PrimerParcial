@@ -5,7 +5,6 @@ class Program
     static void Main()
     {
         var controller = new ReservationController();
-        controller.LoadReservations();
 
         while (true)
         {

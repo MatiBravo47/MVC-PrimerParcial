@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "Client": {
+      "Name": "Matias",
+      "LastName": "Bravo",
+      "ID": "38321072",
+      "Email": "Matias@hotmail.com"
+    },
+    "Destinations": [
+      {
+        "Name": "Buenos Aires",
+        "BasePrice": 1000,
+        "Country": "Argentina"
+      }
+    ]
+  },
+  {
+    "Client": {
+      "Name": "Fatima",
+      "LastName": "Ponce",
+      "ID": "38321075",
+      "Email": "Fatima@"
+    },
+    "Destinations": [
+      {
+        "Name": "Buenos Aires ",
+        "BasePrice": 1000,
+        "Country": "Argentina"
+      },
+      {
+        "Name": "Mendoza",
+        "BasePrice": 2000,
+        "Country": "Argentina"
+      }
+    ]
+  },
+  {
+    "Client": {
+      "Name": "Jorgela",
+      "LastName": "Lopez",
+      "ID": "50000332",
+      "Email": "Jorgela10@"
+    },
+    "Destinations": [
+      {
+        "Name": "Cancun ",
+        "BasePrice": 800,
+        "Country": "Mexico"
+      }
+    ]
+  }
+]
