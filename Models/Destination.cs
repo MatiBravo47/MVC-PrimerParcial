@@ -14,8 +14,7 @@ namespace Models
 
         public Destination() { }
 
-        public Destination(string name, double basePrice, string
-    country)
+        public Destination(string name, double basePrice, string country)
         {
             Name = name;
             BasePrice = basePrice;

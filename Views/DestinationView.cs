@@ -8,6 +8,7 @@ namespace Views
         public static Destination LoadDestination()
         {
             Console.WriteLine("=== Crear Destino Turístico ===");
+            
             Console.Write("Nombre del destino: ");
             string name = Console.ReadLine();
 

@@ -10,18 +10,7 @@ namespace Controllers
 {
     public class DestinationController
     {
-        public DestinationController() { }
-        public Destination LoadDestination() 
-        {
-            return DestinationView.LoadDestination();
-        }
-        public List<Destination> LoadDestinationList() 
-        {
-            return DestinationView.LoadDestinationList();
-        }
-        public void ShowDestination(List<Destination> destinationList) 
-        {
-            DestinationView.ShowDestinationList(destinationList);
-        }
+        public List<Destination> LoadDestinationList() => DestinationView.LoadDestinationList();
+        public void ShowDestination(List<Destination> destinationList) => DestinationView.ShowDestinationList(destinationList);
     }
 }

@@ -10,15 +10,7 @@ namespace Controllers
 {
     public class ClientController
     {
-        public ClientController() { }
-        public Client CreateClient()
-        {
-            return ClientView.CreateClient();
-        }
-
-        public void ShowClient(Client cliente) 
-        {
-            ClientView.ShowClient(cliente);
-        }
+        public Client CreateClient() => ClientView.CreateClient();
+        public void ShowClient(Client cliente) => ClientView.ShowClient(cliente);
     }
 }

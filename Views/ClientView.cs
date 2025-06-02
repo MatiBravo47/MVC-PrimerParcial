@@ -9,11 +9,13 @@ namespace Views
         public static Client CreateClient()
         {
             Console.WriteLine("=== Crear Cliente ===");
+            
             Console.Write("Nombre: ");
             string name = Console.ReadLine();
 
             Console.Write("Apellido: ");
             string lastName = Console.ReadLine();
+            
             Console.Write("ID (DNI o Pasaporte): ");
             string id = Console.ReadLine();
 

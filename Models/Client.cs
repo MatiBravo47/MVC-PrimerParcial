@@ -15,8 +15,7 @@ namespace Models
 
         public Client() { }
 
-        public Client(string name, string lastName, string id, string
-    email)
+        public Client(string name, string lastName, string id, string email)
         {
             Name = name;
             LastName = lastName;

@@ -33,7 +33,6 @@ namespace Controllers
             Repository<Reservation>.GuardarLista("Ordenes", reservationList);
         }
 
-        // MÉTODOS A COMPLETAR: 
         public void CreateReservation() {
             var cliente = cController.CreateClient();
             var destino = dController.LoadDestinationList();
@@ -41,38 +40,45 @@ namespace Controllers
             Reservation nuevaReservacion = new Reservation();
             nuevaReservacion.Client = cliente;
             nuevaReservacion.Destinations = destino;
+            
             reservationList.Add(nuevaReservacion);
+            
             SaveReservations();
         }
         public void ShowAllReservations()
         {
             int indice = 0;
-            foreach (var o in reservationList)
+            foreach (var reservacion in reservationList)
             {
                 ReservationView.ShowMsg($"Indice: {indice}");
-                ClientView.ShowClient(o.Client);
-                DestinationView.ShowDestinationList(o.Destinations);
+                ClientView.ShowClient(reservacion.Client);
+                DestinationView.ShowDestinationList(reservacion.Destinations);
                 indice++;
             }
         }
         public void DeleteReservationByClient() 
         {
             ShowAllReservations();
+            
             ReservationView.ShowMsg("Indique indice que desea eliminar");
-            int indiceIndicado = int.Parse(Console.ReadLine());
-            reservationList.RemoveAt(indiceIndicado);
+            int indiceEliminar = int.Parse(Console.ReadLine());
+            reservationList.RemoveAt(indiceEliminar);
+            
             SaveReservations();
         } 
         public void UpdateReservation()
         {
             ShowAllReservations();
+            
             ReservationView.ShowMsg("Ingrese el indice que desea actualizar");
-            int indiceSelec = int.Parse(Console.ReadLine());
+            int indiceActualizar = int.Parse(Console.ReadLine());
+            
             var nuevoCliente = cController.CreateClient();
             var nuevosDestinos = dController.LoadDestinationList();
 
-            reservationList[indiceSelec].Client = nuevoCliente;
-            reservationList[indiceSelec].Destinations = nuevosDestinos;
+            reservationList[indiceActualizar].Client = nuevoCliente;
+            reservationList[indiceActualizar].Destinations = nuevosDestinos;
+            
             SaveReservations() ;
         }
     }

@@ -33,20 +33,5 @@
         "Country": "Argentina"
       }
     ]
-  },
-  {
-    "Client": {
-      "Name": "Jorgela",
-      "LastName": "Lopez",
-      "ID": "50000332",
-      "Email": "Jorgela10@"
-    },
-    "Destinations": [
-      {
-        "Name": "Cancun ",
-        "BasePrice": 800,
-        "Country": "Mexico"
-      }
-    ]
   }
 ]
