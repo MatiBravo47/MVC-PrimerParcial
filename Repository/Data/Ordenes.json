@@ -33,5 +33,20 @@
         "Country": "Argentina"
       }
     ]
+  },
+  {
+    "Client": {
+      "Name": "Jorge",
+      "LastName": "Lopez",
+      "ID": "31231231",
+      "Email": "jorge@"
+    },
+    "Destinations": [
+      {
+        "Name": "Florencio Varela",
+        "BasePrice": 1000,
+        "Country": "Argentina"
+      }
+    ]
   }
 ]

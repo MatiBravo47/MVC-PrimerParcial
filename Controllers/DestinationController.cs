@@ -11,6 +11,6 @@ namespace Controllers
     public class DestinationController
     {
         public List<Destination> LoadDestinationList() => DestinationView.LoadDestinationList();
-        public void ShowDestination(List<Destination> destinationList) => DestinationView.ShowDestinationList(destinationList);
+        public void ShowDestinationList(List<Destination> destinationList) => DestinationView.ShowDestinationList(destinationList);
     }
 }

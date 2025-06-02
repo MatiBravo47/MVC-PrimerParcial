@@ -13,9 +13,12 @@ namespace Controllers
 {
     public class ReservationController
     {
+        //Se declaran las variables cController y dController
         private ClientController cController;
         private DestinationController dController;
         private List<Reservation> reservationList = new List<Reservation>();
+        
+        //Se inicializan cController y dController
         public ReservationController()
         {
             cController = new ClientController();
@@ -51,8 +54,8 @@ namespace Controllers
             foreach (var reservacion in reservationList)
             {
                 ReservationView.ShowMsg($"Indice: {indice}");
-                ClientView.ShowClient(reservacion.Client);
-                DestinationView.ShowDestinationList(reservacion.Destinations);
+                cController.ShowClient(reservacion.Client);
+                dController.ShowDestinationList(reservacion.Destinations);
                 indice++;
             }
         }
